@@ -1,0 +1,19 @@
+
+----- PARA RODAR O TRABALHO ------
+
+FRONT:
+ > Acessar no node prompt a pasta "ChocoaliciaSite"
+ > Comando "npm run dev"
+
+BACK:
+ > Acessar em outra janela do node prompt a pasta "chocoserver"
+ > Comando "node index.js"
+
+BANCO DE DADOS:
+ > Abrir o xampp
+ > Criar um banco de dados: "CREATE DATABASE chocoalicia"
+ > Importar o arquivo "chocoalicia.sql"
+
+
+Tudo precisar estar rodando ao mesmo tempo.
+
