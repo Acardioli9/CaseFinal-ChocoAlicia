@@ -1,0 +1,178 @@
+
+.form-caixa{
+    background-color: transparent;
+}
+
+.nomeSobrenome2{
+    display: flex;
+    flex-direction: column;
+}
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+      
+        
+      
+
+    
+}
+
+.container2{
+    
+        width: 60%;
+        height: 60%;
+        color: black;
+        border-radius: 20px;
+       
+}
+
+.close {
+    background-color: transparent;
+    outline: none;
+    width: 32px;
+    height: 32px;
+    border: none;
+    right:  calc(-79% + 64px);
+    top: 64px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    &:before,
+    &:after{
+        content: ' ';
+        position: absolute;
+        width: 2.5px;
+        height: 24px;
+        background-color: black;
+    }
+    &:before{
+        transform: rotate(45deg);
+    }
+    &:after{
+        transform: rotate(-45deg);
+    }
+
+    
+
+}
+
+
+.entrarr{
+    color: white;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);
+    padding: 10px 17px;
+    letter-spacing: 2px;
+    background-color: #D98236;
+    
+}
+
+#Email2{
+    background-color: rgb(242, 231, 220);
+    margin-top: 5px;     
+    width: 25vw;
+    height: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-left: 20px;
+  
+   
+    
+}
+
+#password2 {
+    background-color: rgb(242, 231, 220);
+    margin-top: 5px;    
+    width: 25vw;
+    height: 20px;
+    padding:10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+   
+}
+
+
+#Email2 input {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#button2 {
+    margin: 20px 0 20px 30px;
+    width: 25vw;
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: rgb(217, 130, 54);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(13, 13, 13, 0.500);
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.checkbox2{
+    margin-left: 20px;
+    
+}
+
+.nome{
+  color:#591708;
+}
+.nome label{
+    margin-left: 20px;
+}
+.sobrenome2{
+    padding-top: 15px ;
+    color: #591708;
+}
+.sobrenome2 label{
+    
+    margin-left: 20px;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #591708;
+}
+
+
+.lembrar{
+    color: #591708;
+    
+}
+
+.checkbox{
+    padding-top: 155px;
+}
+
+
+.senha{
+    color: #1a79ca;
+    font-size: 15px;
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    margin-right: 50px;
+}
