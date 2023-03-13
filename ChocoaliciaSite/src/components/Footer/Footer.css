@@ -1,0 +1,87 @@
+footer {
+    background-color: rgb(89, 23, 8);
+    padding: 30px 20px 20px 20px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.logoRodape {
+    margin: 0 30px;
+}
+
+.logoRodape img {
+    height: 130px;
+    transition: 0.5s;
+}
+
+.rodape {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.rodape h4 {
+    font-family: 'Noto Serif';
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(242, 231, 220)
+}
+
+.textoRodape {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.redesRodape {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.iconesRedes img {
+    width: 40px;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.iconesRedes img:hover {
+    opacity: 100%;
+}
+
+.funcionamento {
+    color: rgb(242, 231, 220);
+    padding: 0 10px;
+}
+
+.funcionamento p {
+    color: rgb(217, 130, 54);
+}
+
+.funcionamento span {
+    color: rgb(242, 185, 136);
+}
+
+#localizacao {
+    padding: 0 10px;
+}
+
+.copyright {
+    color: rgb(217, 130, 54);
+    text-align: left;
+    font-size: 12px;
+    padding: 0 10px 5px 10px;
+    line-height: 1.6;
+    margin-top: -20px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(242, 185, 136);
+}
+
+.copyright a:hover {
+    color: rgb(217, 130, 54);
+}

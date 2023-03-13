@@ -1,0 +1,174 @@
+.topo {
+    background-image: radial-gradient(circle, rgb(242, 231, 220) 3%, rgb(242 185 136) 55%);
+    width: auto;
+    display: grid;  
+    grid-template-columns: auto auto auto;
+}
+
+.topoPrincipal {
+    text-align: center;
+    margin: 20px 0 30px 0;
+    display: block;
+    grid-column-start: 2;
+}
+
+.topoPrincipal img {
+    height: 170px;
+    width: auto;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+#inputBusca {
+    padding: 10px 15px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: solid 2px rgb(217, 130, 54);
+    box-sizing: border-box;
+}
+
+.topoPrincipal span{
+    margin-left:-20px;
+}
+
+.redes {
+    grid-column-start: 1;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.redes img {
+    width: 40px;
+    height: auto;
+    margin-left: 8px;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.redes img:hover {
+    opacity: 100%;
+}
+
+.entrar {
+    grid-column-start: 3;
+    align-items: end;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+
+#abrePopup {
+    cursor:pointer; 
+    background: none; 
+    border: none;
+    color: rgb(242, 231, 220);
+    font-family: 'Noto Serif';
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: rgb(217, 130, 54);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(13, 13, 13, 0.500);
+}
+
+#abrePopup:hover {
+    color: rgb(89, 23, 8)
+}
+
+/* popup */
+.popup {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 380px;
+    background: rgb(242, 185, 136);
+    padding: 20px 30px;
+    box-shadow: 3px 3px 5px 4px rgba(13, 13, 13, 0.8);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms, 
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+                z-index: 1000;
+}
+
+.popup.active {
+    top: 64%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    background: rgb(89, 23, 8);
+    color: rgb(242, 231, 220);
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popupForm h2 {
+    text-align: center;
+    color: rgb(89, 23, 8);
+    margin: 18px 0px 28px;
+    font-size: 25px;
+}
+
+.form-element {
+    margin: 15px 0px;
+}
+
+.popup .popupForm .form-element label {
+    font-size: 14px;
+    color: rgb(89, 23, 8);
+}
+
+.popup .popupForm .form-element input[type=text],
+.popup .popupForm .form-element input[type=password] {
+    background-color: rgb(242, 231, 220);
+    margin-top: 5px; 
+    display: block;
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.popup .popupForm .form-element input[type=checkbox] {
+    margin-right: 5px;
+}
+
+.popup .popupForm .form-element button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgb(217, 130, 54);
+    color: rgb(242, 231, 220);
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+.popup .popupForm .form-element a{
+    display:block ;
+    text-align: right;
+    font-size: 15px;
+    color:#1a79ca;
+    text-decoration: none;
+    font-weight: 500;
+}
+/*fim popup*/
